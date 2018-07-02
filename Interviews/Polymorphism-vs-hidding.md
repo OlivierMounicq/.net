@@ -30,10 +30,9 @@ And we will replace [baseClassKeyword] and [inheritedClassKeyword] by different 
 
 #### The resume
 
-
-| Base class                                      | ```public void Method```      |
-|:------------------------------------------------|:------------------------------|
-| Inherited class                                 | ```public override Method()```|
-| Compilation                                     | KO                            |
-| BaseClass a = new InheritedClass(); <br/>  a.Method() | I am the inherited class
+|:-------------------------------------------------------|:------------------------------|
+| Base class                                             | ```public void Method```      |
+| Inherited class                                        | ```public override Method()```|
+| Compilation                                            | KO                            |
+| BaseClass a = new InheritedClass(); <br/>  a.Method(); | I am the inherited class
 
