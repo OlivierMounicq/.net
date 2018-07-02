@@ -30,7 +30,8 @@ And we will replace [baseClassKeyword] and [inheritedClassKeyword] by different 
 
 #### The resume
 
-|--------|--------|
-| Base class | ```public void Method```|
+
+| Base class      | ```public void Method```      |
+|:----------------|:------------------------------|
 | Inherited class | ```public override Method()```|
-| Compilation | KO |
+| Compilation     | KO                            |
