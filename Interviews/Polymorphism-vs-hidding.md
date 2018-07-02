@@ -35,5 +35,5 @@ And we will replace [baseClassKeyword] and [inheritedClassKeyword] by different 
 |:------------------------------------------------|:------------------------------|
 | Inherited class                                 | ```public override Method()```|
 | Compilation                                     | KO                            |
-| BaseClass a = new InheritedClass();  a.Method() | I am the inherited class
+| BaseClass a = new InheritedClass(); <br/>  a.Method() | I am the inherited class
 
