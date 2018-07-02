@@ -62,5 +62,5 @@ __Beware__ :about the stack overflow when you use the recursive methods.
 
 A technique to avoid a stack overflow is the _tail recursion_. Some functional languages implements it, the CLR implements too but not the C#!  
 Good articles:
- - [http://www.thomaslevesque.com/2011/09/02/tail-recursion-in-c/](Tail recursion in C#)
+ - (Tail recursion in C#)[http://www.thomaslevesque.com/2011/09/02/tail-recursion-in-c/]
  - [http://blog.functionalfun.net/2008/04/bouncing-on-your-tail.html](Bouncing on your tail)
