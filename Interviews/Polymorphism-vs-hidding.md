@@ -28,3 +28,9 @@ public class InheritedClass : BaseClass
 And we will replace [baseClassKeyword] and [inheritedClassKeyword] by different combinations using ```abstract```,
 ```override```, ```virtual```, ```new```.
 
+#### The resume
+
+|--------|--------|
+| Base class | ```public void Method```|
+| Inherited class | ```public override Method()```|
+| Compilation | KO |
